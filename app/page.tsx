@@ -64,7 +64,7 @@ export default function HomePage() {
           <ScrollAnimation direction="left" delay={100}>
             <div className="image-overlay relative w-full overflow-hidden rounded-xl bg-[var(--color-card-alt)] transition-all duration-500 hover:shadow-xl">
               <Image
-                src="/images/Screenshot%202026-02-04%20233729.png"
+                src="/images/office3.png"
                 alt="Calming therapy environment in Santa Monica"
                 width={1600}
                 height={1066}
@@ -122,7 +122,7 @@ export default function HomePage() {
                         src={card.img}
                         alt={`${card.title} - Dr. Maya Reynolds`}
                         fill
-                        className="object-cover image-zoom transition-transform duration-700 group-hover:scale-110"
+                        className="object-cover object-center image-zoom transition-transform duration-700 group-hover:scale-110"
                         sizes="160px"
                       />
                     </div>
@@ -257,30 +257,30 @@ export default function HomePage() {
 
           <ScrollAnimation direction="left" delay={100}>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-              <div className="relative mx-auto h-40 w-40 overflow-hidden rounded-full bg-[var(--color-card-alt)] transition-all duration-500 hover:shadow-xl ring-2 ring-[var(--color-border-card)] md:h-56 md:w-56">
+              <div className="relative mx-auto h-40 w-40 aspect-square shrink-0 overflow-hidden rounded-full bg-[var(--color-card-alt)] transition-all duration-500 hover:shadow-xl ring-2 ring-[var(--color-border-card)] md:h-56 md:w-56">
                 <Image
                   src="/images/office1.jpg"
                   alt="Therapy office space in Santa Monica"
                   fill
-                  className="object-cover image-zoom"
+                  className="object-cover object-center image-zoom"
                   sizes="(max-width: 768px) 50vw, 224px"
                 />
               </div>
-              <div className="relative mx-auto h-40 w-40 overflow-hidden rounded-full bg-[var(--color-card-alt)] transition-all duration-500 hover:shadow-xl ring-2 ring-[var(--color-border-card)] md:h-56 md:w-56">
+              <div className="relative mx-auto h-40 w-40 aspect-square shrink-0 overflow-hidden rounded-full bg-[var(--color-card-alt)] transition-all duration-500 hover:shadow-xl ring-2 ring-[var(--color-border-card)] md:h-56 md:w-56">
                 <Image
                   src="/images/office2.jpg"
                   alt="Counseling room designed for comfort and privacy"
                   fill
-                  className="object-cover image-zoom"
+                  className="object-cover object-center image-zoom"
                   sizes="(max-width: 768px) 50vw, 224px"
                 />
               </div>
-              <div className="relative mx-auto h-40 w-40 overflow-hidden rounded-full bg-[var(--color-card-alt)] transition-all duration-500 hover:shadow-xl ring-2 ring-[var(--color-border-card)] md:h-56 md:w-56">
+              <div className="relative mx-auto h-40 w-40 aspect-square shrink-0 overflow-hidden rounded-full bg-[var(--color-card-alt)] transition-all duration-500 hover:shadow-xl ring-2 ring-[var(--color-border-card)] md:h-56 md:w-56">
                 <Image
-                  src="/images/Screenshot%202026-02-04%20233729.png"
+                  src="/images/office3.png"
                   alt="Waiting area with natural light and calming decor"
                   fill
-                  className="object-cover object-center image-zoom"
+                  className="object-cover object-center image-zoom scale-110"
                   sizes="(max-width: 768px) 50vw, 224px"
                 />
               </div>
